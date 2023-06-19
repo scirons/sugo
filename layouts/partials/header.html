@@ -1,0 +1,15 @@
+<header class="site-header">
+  <h1 class="site-header__title">{{ .Title }} - Visual Identity</h1>
+  <p class="site-header__desc">Version 1.0</p>
+  <section class="site-header__panel">
+    <figure class="site-header__figure">
+      <figcaption class="site-header__heading">Logo</figcaption>
+      <picture class="border-block">
+        <img class="logo" width="50" height="50" src="{{ "logo.svg" | absURL }}">
+      </picture>
+    </figure>
+    <figure class="site-header__figure">
+      <figcaption class="site-header__heading">Logotype</figcaption>
+      <p class="logotype border-block">{{ .Title }}<br>S</p>
+    </figure>
+  </section>
